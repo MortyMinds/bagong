@@ -60,7 +60,7 @@ function People() {
 }
 function App() {
   return (
-    <Router>
+    <Router basename="/bagong">
         <Routes>
             <Route exact path="/" element={Home()} />
             <Route path="/about" element={About()} />
