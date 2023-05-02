@@ -1,10 +1,12 @@
-import {React, useState} from "react";
+import React, {useState} from "react";
 import ReactDOM from "react-dom/client";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import Header from "./pages/base/header/header";
-import Footer from "./pages/base/footer/footer";
+import Header from "./pages/base/header/Header";
+import Footer from "./pages/base/footer/Footer";
 import "./index.css"
 import data from "./data/data.json"
+import TermsOfUse from "./pages/TermsOfUse";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 const blurLayOut = {
     textAlign: "center",
@@ -21,6 +23,16 @@ const blurLayOut = {
     fontFamily: "-apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', " +
         "'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
 };
+const pStyle = {
+    textAlign: "justify",
+    textIndent: "2em",
+    marginBottom: "1em",
+    fontFamily: "Times New Roman",
+    fontSize: "16px",
+    lineHeight: "1.5",
+    marginLeft: "50px",
+    marginRight: "50px",
+};
 
 function Home() {
     return (
@@ -35,22 +47,11 @@ function Home() {
 }
 
 function About() {
-    const pStyle = {
-        textAlign: "justify",
-        textIndent: "2em",
-        marginBottom: "1em",
-        fontFamily: "Times New Roman",
-        fontSize: "16px",
-        lineHeight: "1.5",
-        marginLeft: "50px",
-        marginRight: "50px",
-    };
-
     return (
         <div>
             <Header/>
             <div style={blurLayOut}>
-                <h1>Why Join The Navy If You Can Be A Pirate?</h1>
+                <h1 style={{fontFamily:"cursive"}}>Why Join The Navy If You Can Be A Pirate?</h1>
                 <p style={pStyle}>
                     Imagine a platform where, after being laid off, you can search for job opportunities from&nbsp;
                     <i><a style={{color: "black"}} href="https://fortune.com/ranking/fortune500/">Fortune 500
@@ -158,9 +159,9 @@ function Search() {
                         </tbody>
                     </table>
                 </div>
-                <div style={{paddingTop:"5px"}}>
-                    Last Update : 05-01-2023 <br/>
-                    Happy Hunting!
+                <div style={{paddingTop: "5px", fontFamily:"cursive"}}>
+                    Last Updated : 05-02-2023 <br/>
+                    Happy Hunting
                 </div>
             </div>
             <Footer/>
@@ -172,6 +173,24 @@ function Apply() {
     return (
         <div>
             <Header/>
+            <div style={blurLayOut}>
+                <h1 style={{textAlign:"center", paddingTop:"5px", fontFamily:"cursive"}}>Welcome To Secret Lab</h1>
+                <p style={pStyle}>
+                    Available companies:
+                </p>
+                <p style={pStyle}>
+                    Adobe, Amex, Bestbuy, Capital-one, Chewy, Citi, Cisco, Comcast, Costco, Cvs, Discover,
+                    Freddie-mac, Home-depot, Ibm, Lowe's, Schwab, Starbucks, T-mobile, Trade-desk, U.S bank,
+                    Walgreens, Walmart, Workday. More companies will be onboard shortly.
+                </p>
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSeaB1tgxA71Co5iEJBwF4p-HOOcU-qaSMk2ZjQjhgHJN6lJkg/viewform?embedded=true"
+                    width="640" height="340" frameBorder="0" marginHeight="0" marginWidth="0">
+                </iframe>
+                <div style={{fontFamily:"cursive"}}>
+                    Happy Hunting
+                </div>
+            </div>
             <Footer/>
         </div>
     )
@@ -195,9 +214,10 @@ function App() {
                 <Route path="/search" element={Search()}/>
                 <Route path="/apply" element={Apply()}/>
                 <Route path="/people" element={People()}/>
+                <Route path='/terms-of-use' element={TermsOfUse()}/>
+                <Route path='/privacy-policy' element={PrivacyPolicy()}/>
             </Routes>
         </Router>
-
     );
 }
 

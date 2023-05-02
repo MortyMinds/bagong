@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.css";
+import "./Header.css";
 import pickleRick from "./pickle_rick.png";
 import {Link} from "react-router-dom";
 
