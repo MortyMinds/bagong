@@ -160,7 +160,7 @@ function Search() {
                     </table>
                 </div>
                 <div style={{paddingTop: "5px", fontFamily:"cursive"}}>
-                    Last Updated : 05-02-2023 <br/>
+                    Last Updated : 05-04-2023 <br/>
                     Happy Hunting
                 </div>
             </div>
