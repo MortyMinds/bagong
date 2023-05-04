@@ -20,7 +20,7 @@
 
 .logo-container img {
   height: 50px;
-  margin-right: 20px;
+  margin-right: 5%;
 }
 
 nav {
@@ -56,4 +56,19 @@ a {
 a:hover {
   color: #4B0082;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 0 2%;
+  }
+
+  .logo-container img {
+    height: 25px;
+    margin-right: 2%;
+  }
+
+  nav ul li {
+    margin: 0 2px;
+  }
 }

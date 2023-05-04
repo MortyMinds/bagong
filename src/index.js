@@ -11,10 +11,10 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 const blurLayOut = {
     textAlign: "center",
     position: "fixed",
-    top: "100px",
-    bottom: "80px",
-    left: "20px",
-    right: "20px",
+    top: "12%",
+    bottom: "10%",
+    left: "1%",
+    right: "1%",
     backgroundColor: "rgba(255, 255, 255, 0.8)",
     zIndex: "9999",
     backdropFilter: "blur(10px)",
@@ -30,16 +30,17 @@ const pStyle = {
     fontFamily: "Times New Roman",
     fontSize: "16px",
     lineHeight: "1.5",
-    marginLeft: "50px",
-    marginRight: "50px",
+    marginLeft: "5%",
+    marginRight: "5%",
 };
 
 function Home() {
     return (
         <div>
             <Header/>
-            <div>
-                <img src="https://cdn.dribbble.com/users/1107367/screenshots/5521980/pickle.gif" alt="iAmIn"/>
+            <div style={{textAlign: "center"}}>
+                <img style={{maxWidth: "100%", height: "auto"}}
+                     src="https://cdn.dribbble.com/users/1107367/screenshots/5521980/pickle.gif" alt="iAmIn"/>
             </div>
             <Footer/>
         </div>
@@ -51,7 +52,7 @@ function About() {
         <div>
             <Header/>
             <div style={blurLayOut}>
-                <h1 style={{fontFamily:"cursive"}}>Why Join The Navy If You Can Be A Pirate?</h1>
+                <h1 style={{fontFamily: "cursive"}}>Why Join The Navy If You Can Be A Pirate?</h1>
                 <p style={pStyle}>
                     Imagine a platform where, after being laid off, you can search for job opportunities from&nbsp;
                     <i><a style={{color: "black"}} href="https://fortune.com/ranking/fortune500/">Fortune 500
@@ -73,6 +74,7 @@ function About() {
                         justifyContent: "center",
                         alignItems: "center",
                         height: "350px",
+                        maxWidth: "100%",
                     }} src="https://media.tenor.com/doUcitxR2acAAAAC/rick-and-morty-smirk.gif" alt="rickAgree"></img>
                 </div>
             </div>
@@ -81,7 +83,7 @@ function About() {
     )
 }
 
-function Search() {
+function SearchJobs() {
     const [searchTerm, setSearchTerm] = useState('');
     const [hoveredRowIndex, setHoveredRowIndex] = useState(-1);
     const tableStyle = {
@@ -159,7 +161,7 @@ function Search() {
                         </tbody>
                     </table>
                 </div>
-                <div style={{paddingTop: "5px", fontFamily:"cursive"}}>
+                <div style={{paddingTop: "2%", fontFamily: "cursive"}}>
                     Last Updated : 05-04-2023 <br/>
                     Happy Hunting
                 </div>
@@ -169,12 +171,12 @@ function Search() {
     )
 }
 
-function Apply() {
+function ApplyJobs() {
     return (
         <div>
             <Header/>
             <div style={blurLayOut}>
-                <h1 style={{textAlign:"center", paddingTop:"5px", fontFamily:"cursive"}}>Welcome To Secret Lab</h1>
+                <h1 style={{textAlign: "center", paddingTop: "5px", fontFamily: "cursive"}}>Welcome To Secret Lab</h1>
                 <p style={pStyle}>
                     Available companies:
                 </p>
@@ -187,7 +189,7 @@ function Apply() {
                     src="https://docs.google.com/forms/d/e/1FAIpQLSeaB1tgxA71Co5iEJBwF4p-HOOcU-qaSMk2ZjQjhgHJN6lJkg/viewform?embedded=true"
                     width="640" height="340" frameBorder="0" marginHeight="0" marginWidth="0">
                 </iframe>
-                <div style={{fontFamily:"cursive"}}>
+                <div style={{fontFamily: "cursive"}}>
                     Happy Hunting
                 </div>
             </div>
@@ -211,8 +213,8 @@ function App() {
             <Routes>
                 <Route exact path="/" element={Home()}/>
                 <Route path="/about" element={About()}/>
-                <Route path="/search" element={Search()}/>
-                <Route path="/apply" element={Apply()}/>
+                <Route path="/search" element={SearchJobs()}/>
+                <Route path="/apply" element={ApplyJobs()}/>
                 <Route path="/people" element={People()}/>
                 <Route path='/terms-of-use' element={TermsOfUse()}/>
                 <Route path='/privacy-policy' element={PrivacyPolicy()}/>
