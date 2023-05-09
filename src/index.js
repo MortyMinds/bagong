@@ -185,9 +185,9 @@ function ApplyJobs() {
                     Freddie-mac, Home-depot, Ibm, Lowe's, Schwab, Starbucks, T-mobile, Trade-desk, U.S bank,
                     Walgreens, Walmart, Workday. More companies will be onboard shortly.
                 </p>
-                <iframe title="GoogleForm"
+                <iframe title="GoogleForm" style={{border:"0", margin: "0"}}
                     src="https://docs.google.com/forms/d/e/1FAIpQLSeaB1tgxA71Co5iEJBwF4p-HOOcU-qaSMk2ZjQjhgHJN6lJkg/viewform?embedded=true"
-                    width="640" height="340">
+                    width="40%" height="60%">
                 </iframe>
                 <div style={{fontFamily: "cursive"}}>
                     Happy Hunting
