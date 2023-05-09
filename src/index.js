@@ -68,12 +68,27 @@ function About() {
                     Wouldn't it be wonderful if there was a more meaningful and efficient way to connect qualified job
                     seekers with reputable employers?
                 </p>
+                <p style={pStyle}>
+                    Available Companies:
+                    <br/>
+                    <div style={{backgroundImage: 'linear-gradient(45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB)'}}>
+                        <b style={{color:"white"}}>
+                            Adobe, ADP, Airbnb, Amex, Apple, Asana, ATT, Bestbuy, CaptialOne, Caterpillar, Chase, Chewy,
+                            Cisco, Citi,
+                            Comcast, Costco, CVS, Datadog, Discover, eBay, Expedia, Flexport, Ford, FreddieMac, GEICO,
+                            Google,
+                            Honeywell, HomeDepot, Humana, IBM, Korger, Lowes, Meta, MicroSoft, Oracle, Schwab,
+                            ServiceNow, Starbucks,
+                            T-Mobile, TradeDesk, UPS, UnitedHealth, USBank, Veeva, Walgreens, Walmart, Workday
+                        </b>
+                    </div>
+                </p>
                 <div>
                     <img style={{
                         display: "flex",
                         justifyContent: "center",
                         alignItems: "center",
-                        height: "350px",
+                        height: "250px",
                         maxWidth: "100%",
                     }} src="https://media.tenor.com/doUcitxR2acAAAAC/rick-and-morty-smirk.gif" alt="rickAgree"></img>
                 </div>
@@ -185,9 +200,9 @@ function ApplyJobs() {
                     Freddie-mac, Home-depot, Ibm, Lowe's, Schwab, Starbucks, T-mobile, Trade-desk, U.S bank,
                     Walgreens, Walmart, Workday. More companies will be onboard shortly.
                 </p>
-                <iframe title="GoogleForm" style={{border:"0", margin: "0"}}
-                    src="https://docs.google.com/forms/d/e/1FAIpQLSeaB1tgxA71Co5iEJBwF4p-HOOcU-qaSMk2ZjQjhgHJN6lJkg/viewform?embedded=true"
-                    width="40%" height="60%">
+                <iframe title="GoogleForm" style={{border: "0", margin: "0"}}
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSeaB1tgxA71Co5iEJBwF4p-HOOcU-qaSMk2ZjQjhgHJN6lJkg/viewform?embedded=true"
+                        width="40%" height="60%">
                 </iframe>
                 <div style={{fontFamily: "cursive"}}>
                     Happy Hunting
