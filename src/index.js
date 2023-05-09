@@ -162,7 +162,7 @@ function SearchJobs() {
                     </table>
                 </div>
                 <div style={{paddingTop: "2%", fontFamily: "cursive"}}>
-                    Last Updated : 05-04-2023 <br/>
+                    Last Updated : 05-09-2023 <br/>
                     Happy Hunting
                 </div>
             </div>
@@ -185,9 +185,9 @@ function ApplyJobs() {
                     Freddie-mac, Home-depot, Ibm, Lowe's, Schwab, Starbucks, T-mobile, Trade-desk, U.S bank,
                     Walgreens, Walmart, Workday. More companies will be onboard shortly.
                 </p>
-                <iframe
+                <iframe title="GoogleForm"
                     src="https://docs.google.com/forms/d/e/1FAIpQLSeaB1tgxA71Co5iEJBwF4p-HOOcU-qaSMk2ZjQjhgHJN6lJkg/viewform?embedded=true"
-                    width="640" height="340" frameBorder="0" marginHeight="0" marginWidth="0">
+                    width="640" height="340">
                 </iframe>
                 <div style={{fontFamily: "cursive"}}>
                     Happy Hunting
