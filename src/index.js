@@ -74,12 +74,9 @@ function About() {
                     <div style={{backgroundImage: 'linear-gradient(45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB)'}}>
                         <b style={{color:"white"}}>
                             Adobe, ADP, Airbnb, Amex, Apple, Asana, ATT, Bestbuy, CaptialOne, Caterpillar, Chase, Chewy,
-                            Cisco, Citi,
-                            Comcast, Costco, CVS, Datadog, Discover, eBay, Expedia, Flexport, Ford, FreddieMac, GEICO,
-                            Google,
-                            Honeywell, HomeDepot, Humana, IBM, Korger, Lowes, Meta, MicroSoft, Oracle, Schwab,
-                            ServiceNow, Starbucks,
-                            T-Mobile, TradeDesk, UPS, UnitedHealth, USBank, Veeva, Walgreens, Walmart, Workday
+                            Cisco, Citi, Comcast, Costco, CVS, Datadog, Discover, eBay, Expedia, Flexport, Ford, FreddieMac,
+                            GEICO, Google, Honeywell, HomeDepot, Humana, IBM, Korger, Lowes, Meta, MicroSoft, Oracle, Schwab,
+                            ServiceNow, Starbucks, T-Mobile, TradeDesk, UPS, UnitedHealth, USBank, Veeva, Walgreens, Walmart, Workday
                         </b>
                     </div>
                 </p>
@@ -177,7 +174,7 @@ function SearchJobs() {
                     </table>
                 </div>
                 <div style={{paddingTop: "2%", fontFamily: "cursive"}}>
-                    Last Updated : 05-09-2023 <br/>
+                    Last Updated : 05-10-2023 <br/>
                     Happy Hunting
                 </div>
             </div>
