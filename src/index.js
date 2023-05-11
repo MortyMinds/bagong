@@ -76,7 +76,7 @@ function About() {
                             Adobe, ADP, Airbnb, Amex, Apple, Asana, ATT, Bestbuy, CaptialOne, Caterpillar, Chase, Chewy,
                             Cisco, Citi, Comcast, Costco, CVS, Datadog, Discover, eBay, Expedia, Flexport, Ford, FreddieMac,
                             GEICO, Google, Honeywell, HomeDepot, Humana, IBM, Korger, Lowes, Meta, MicroSoft, Oracle, Schwab,
-                            ServiceNow, Starbucks, T-Mobile, TradeDesk, UPS, UnitedHealth, USBank, Veeva, Walgreens, Walmart, Workday
+                            ServiceNow, Starbucks, Square, T-Mobile, TradeDesk, Tiktok, UPS, UnitedHealth, USBank, Veeva, Walgreens, Walmart, Workday
                         </b>
                     </div>
                 </p>
