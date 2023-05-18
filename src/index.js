@@ -7,7 +7,7 @@ import "./index.css"
 import data from "./data/data.json"
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
-
+const dataUpdateDate = "2023-05-17";
 const blurLayOut = {
     textAlign: "center",
     position: "fixed",
@@ -80,15 +80,10 @@ function About() {
                         </b>
                     </div>
                 </p>
-                <div>
-                    <img style={{
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        height: "250px",
-                        maxWidth: "100%",
-                    }} src="https://media.tenor.com/doUcitxR2acAAAAC/rick-and-morty-smirk.gif" alt="rickAgree"></img>
-                </div>
+                <iframe title="GoogleForm" style={{border: "0", margin: "0"}}
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSdWRfLwGnVY1ZFANudeR5dXLc5sEca2hG2jmdfJPx4u_u8DxA/viewform?embedded=true"
+                        width="50%" height="40%">
+                </iframe>
             </div>
             <Footer/>
         </div>
@@ -174,7 +169,7 @@ function SearchJobs() {
                     </table>
                 </div>
                 <div style={{paddingTop: "2%", fontFamily: "cursive"}}>
-                    Last Updated : 05-10-2023 <br/>
+                    Last Updated : {dataUpdateDate} <br/>
                     Happy Hunting
                 </div>
             </div>
