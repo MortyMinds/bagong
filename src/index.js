@@ -7,7 +7,8 @@ import "./index.css"
 import data from "./data/data.json"
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
-const dataUpdateDate = "2023-05-17";
+
+const dataUpdateDate = "2023-05-19";
 const blurLayOut = {
     textAlign: "center",
     position: "fixed",
@@ -72,11 +73,12 @@ function About() {
                     Available Companies:
                     <br/>
                     <div style={{backgroundImage: 'linear-gradient(45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB)'}}>
-                        <b style={{color:"white"}}>
+                        <b style={{color: "white"}}>
                             Adobe, ADP, Airbnb, Amex, Apple, Asana, ATT, Bestbuy, CaptialOne, Caterpillar, Chase, Chewy,
-                            Cisco, Citi, Comcast, Costco, CVS, Datadog, Discover, eBay, Expedia, Flexport, Ford, FreddieMac,
-                            GEICO, Google, Honeywell, HomeDepot, Humana, IBM, Korger, Lowes, Meta, MicroSoft, Oracle, Schwab,
-                            ServiceNow, Starbucks, Square, T-Mobile, TradeDesk, Tiktok, UPS, UnitedHealth, USBank, Veeva, Walgreens, Walmart, Workday
+                            Cisco, Citi, Comcast, Costco, CVS, Datadog, Discover, eBay, Expedia, Flexport, Ford,
+                            FreddieMac, GEICO, Google, Honeywell, HomeDepot, Humana, IBM, Korger, Lowes, Meta,
+                            MicroSoft, Oracle, Paypal, Schwab, ServiceNow, Starbucks, Square, T-Mobile, TradeDesk, Tiktok, UPS,
+                            UnitedHealth, USBank, Veeva, Walgreens, Walmart, Workday
                         </b>
                     </div>
                 </p>
