@@ -52,7 +52,7 @@ function About() {
     const companiesString = ["Adobe", "ADP", "Airbnb", "Amex", "Apple", "Asana", "ATT", "Bestbuy", "CaptialOne", "Caterpillar", "Chase", "Chewy", "Cisco",
   "Citi", "Comcast", "Costco", "CVS", "Datadog", "Docusign", "Discover", "eBay", "Expedia", "Flexport", "Ford", "FreddieMac", "GEICO", "Google",
   "Honeywell", "HomeDepot", "Humana", "IBM", "Korger", "Lowes", "Meta", "MicroSoft", "Oracle", "Paypal", "Schwab", "ServiceNow", "Starbucks",
-  "Square", "T-Mobile", "TradeDesk", "Tiktok", "UPS", "UnitedHealth", "USBank", "Veeva", "Walgreens", "Walmart", "Workday"]
+  "Square", "T-Mobile", "TradeDesk", "Tiktok", "UPS", "UnitedHealth", "USBank", "Veeva", "Walgreens", "Walmart", "Workday", "SAP", "Fidelity", "State Farm"]
         .sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase())).join(', ');
     return (
         <div>
