@@ -8,7 +8,7 @@ import data from "./data/data.json"
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 
-const dataUpdateDate = "2023-05-19";
+const dataUpdateDate = "2023-05-23";
 const blurLayOut = {
     textAlign: "center",
     position: "fixed",
@@ -49,6 +49,11 @@ function Home() {
 }
 
 function About() {
+    const companiesString = ["Adobe", "ADP", "Airbnb", "Amex", "Apple", "Asana", "ATT", "Bestbuy", "CaptialOne", "Caterpillar", "Chase", "Chewy", "Cisco",
+  "Citi", "Comcast", "Costco", "CVS", "Datadog", "Docusign", "Discover", "eBay", "Expedia", "Flexport", "Ford", "FreddieMac", "GEICO", "Google",
+  "Honeywell", "HomeDepot", "Humana", "IBM", "Korger", "Lowes", "Meta", "MicroSoft", "Oracle", "Paypal", "Schwab", "ServiceNow", "Starbucks",
+  "Square", "T-Mobile", "TradeDesk", "Tiktok", "UPS", "UnitedHealth", "USBank", "Veeva", "Walgreens", "Walmart", "Workday"]
+        .sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase())).join(', ');
     return (
         <div>
             <Header/>
@@ -74,11 +79,7 @@ function About() {
                     <br/>
                     <div style={{backgroundImage: 'linear-gradient(45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB)'}}>
                         <b style={{color: "white"}}>
-                            Adobe, ADP, Airbnb, Amex, Apple, Asana, ATT, Bestbuy, CaptialOne, Caterpillar, Chase, Chewy,
-                            Cisco, Citi, Comcast, Costco, CVS, Datadog, Discover, eBay, Expedia, Flexport, Ford,
-                            FreddieMac, GEICO, Google, Honeywell, HomeDepot, Humana, IBM, Korger, Lowes, Meta,
-                            MicroSoft, Oracle, Paypal, Schwab, ServiceNow, Starbucks, Square, T-Mobile, TradeDesk, Tiktok, UPS,
-                            UnitedHealth, USBank, Veeva, Walgreens, Walmart, Workday
+                            {companiesString}
                         </b>
                     </div>
                 </p>
@@ -181,6 +182,10 @@ function SearchJobs() {
 }
 
 function ApplyJobs() {
+    const applyCompanyString = ["Adobe", "Amex", "Bestbuy", "Capital-one", "Chewy", "Citi", "Cisco", "Comcast", "Costco", "Cvs", "Discover",
+  "Freddie-mac", "Home-depot", "Ibm", "Lowe's", "Schwab", "Starbucks", "T-mobile", "Trade-desk", "U.S bank",
+  "Walgreens", "Walmart", "Workday"]
+        .sort((a, b) => (a.toLowerCase().localeCompare(b.toLowerCase()))).join(', ');
     return (
         <div>
             <Header/>
@@ -190,9 +195,7 @@ function ApplyJobs() {
                     Available companies:
                 </p>
                 <p style={pStyle}>
-                    Adobe, Amex, Bestbuy, Capital-one, Chewy, Citi, Cisco, Comcast, Costco, Cvs, Discover,
-                    Freddie-mac, Home-depot, Ibm, Lowe's, Schwab, Starbucks, T-mobile, Trade-desk, U.S bank,
-                    Walgreens, Walmart, Workday. More companies will be onboard shortly.
+                    {applyCompanyString}. More companies will be onboard shortly.
                 </p>
                 <iframe title="GoogleForm" style={{border: "0", margin: "0"}}
                         src="https://docs.google.com/forms/d/e/1FAIpQLSeaB1tgxA71Co5iEJBwF4p-HOOcU-qaSMk2ZjQjhgHJN6lJkg/viewform?embedded=true"
