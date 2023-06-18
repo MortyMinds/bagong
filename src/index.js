@@ -8,7 +8,7 @@ import data from "./data/data.json"
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 
-const dataUpdateDate = "2023-05-26";
+const dataUpdateDate = "2023-06-18";
 const blurLayOut = {
     textAlign: "center",
     position: "fixed",
@@ -49,10 +49,8 @@ function Home() {
 }
 
 function About() {
-    const companiesString = ["Adobe", "ADP", "Airbnb", "Amex", "Apple", "Asana", "ATT", "Bestbuy", "CaptialOne", "Caterpillar", "Chase", "Chewy", "Cisco",
-        "Citi", "Comcast", "Costco", "CVS", "Datadog", "Docusign", "Discover", "eBay", "Expedia", "Flexport", "Ford", "FreddieMac", "GEICO", "Google",
-        "Honeywell", "HomeDepot", "Humana", "IBM", "Korger", "Lowes", "Meta", "MicroSoft", "Oracle", "Paypal", "Schwab", "ServiceNow", "Starbucks",
-        "Square", "T-Mobile", "TradeDesk", "Tiktok", "UPS", "UnitedHealth", "USBank", "Veeva", "Walgreens", "Walmart", "Workday", "SAP", "Fidelity", "State Farm", "UiPath", "Nvidia", "Snap"]
+    const companiesString = ['Bestbuy', 'Freddiemac', 'Korger', 'Paypal', 'Riteaid', 'Netflix', 'Flexport', 'Nvidia', 'Usbank', 'Ibm', 'CapitalOne', 'Costco', 'Ford', 'Servicenow', 'Asana', 'Smartsheet', 'Tradedesk', 'Ebay', 'Salesforce', 'Veeva', 'Discover', 'Boeing', 'Walmart', 'Snap', 'Homedepot', 'Bairesdev', 'Ups', 'Google', 'Chewy', 'MicroSoft', 'Zillow', 'Uber', 'Walgreens', 'Workday', 'Comcast', 'Schwab', 'Amex', 'Honeywell', 'Cisco', 'Uipath', 'Att', 'Citi', 'Caterpillar', 'Statefarm', 'Adp', 'Humana', 'Expedia', 'Fidelity', "O'Reillyautoparts", 'Molinahealthcare', 'Lowes', 'Tiktok', 'Cvs', 'Oracle', 'Chase', 'Docusign', 'Square', 'Starbucks', 'Geico', 'Apple', 'Datadog', 'Unitedhealth', 'Sap', 'Airbnb', 'Tmobile', 'Adobe', 'Meta']
+
         .sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase())).join(', ');
     return (
         <div>
@@ -83,10 +81,6 @@ function About() {
                         </b>
                     </div>
                 </p>
-                <iframe title="GoogleForm" style={{border: "0", margin: "0"}}
-                        src="https://docs.google.com/forms/d/e/1FAIpQLSdWRfLwGnVY1ZFANudeR5dXLc5sEca2hG2jmdfJPx4u_u8DxA/viewform?embedded=true"
-                        width="50%" height="40%">
-                </iframe>
             </div>
             <Footer/>
         </div>
@@ -182,9 +176,9 @@ function SearchJobs() {
 }
 
 function ApplyJobs() {
-    const applyCompanyString = ["Adobe", "Amex", "Bestbuy", "Capital-one", "Chewy", "Citi", "Cisco", "Comcast", "Costco", "Cvs", "Discover",
-        "Freddie-mac", "Home-depot", "Ibm", "Lowe's", "Schwab", "Starbucks", "T-mobile", "Trade-desk", "U.S bank",
-        "Walgreens", "Walmart", "Workday"]
+    const applyCompanyString = ['Bestbuy', 'Freddiemac', 'Riteaid', 'Usbank', 'Ibm', 'Costco', 'Tradedesk', 'Discover',
+        'Walmart', 'Homedepot', 'Chewy', 'Zillow', 'Walgreens', 'Workday', 'Comcast', 'Schwab', 'Amex', 'Cisco', 'Citi',
+        'Humana', 'Fidelity', 'Lowes', 'Tiktok', 'Cvs', 'Capitalone', 'Starbucks', 'Tmobile', 'Adobe']
         .sort((a, b) => (a.toLowerCase().localeCompare(b.toLowerCase()))).join(', ');
     return (
         <div>
@@ -197,10 +191,6 @@ function ApplyJobs() {
                 <p style={pStyle}>
                     {applyCompanyString}. More companies will be onboard shortly.
                 </p>
-                <iframe title="GoogleForm" style={{border: "0", margin: "0"}}
-                        src="https://docs.google.com/forms/d/e/1FAIpQLSeaB1tgxA71Co5iEJBwF4p-HOOcU-qaSMk2ZjQjhgHJN6lJkg/viewform?embedded=true"
-                        width="40%" height="60%">
-                </iframe>
                 <div style={{fontFamily: "cursive"}}>
                     Happy Hunting
                 </div>
