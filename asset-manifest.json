@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bagong/static/css/main.7b89ff04.css",
-    "main.js": "/bagong/static/js/main.c1cd8e17.js",
+    "main.js": "/bagong/static/js/main.e83293ed.js",
     "static/media/pickle_rick.png": "/bagong/static/media/pickle_rick.ea2a5db4ceea2e49a1e9.png",
     "index.html": "/bagong/index.html",
     "main.7b89ff04.css.map": "/bagong/static/css/main.7b89ff04.css.map",
-    "main.c1cd8e17.js.map": "/bagong/static/js/main.c1cd8e17.js.map"
+    "main.e83293ed.js.map": "/bagong/static/js/main.e83293ed.js.map"
   },
   "entrypoints": [
     "static/css/main.7b89ff04.css",
-    "static/js/main.c1cd8e17.js"
+    "static/js/main.e83293ed.js"
   ]
 }
