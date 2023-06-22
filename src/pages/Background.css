@@ -1,0 +1,17 @@
+.background {
+    text-align: center;
+    position: fixed;
+    top: 12%;
+    bottom: 10%;
+    left: 1%;
+    right: 1%;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 60px / 60px;
+    overflow: auto;
+}
+
+.background h1 {
+    font-family: cursive;
+}

@@ -21,7 +21,7 @@ function Header() {
               <Link to="/apply">Apply</Link>
           </li>
           <li>
-              <Link to="/people">People</Link>
+              <Link to="/puzzle">Puzzle</Link>
           </li>
         </ul>
       </nav>
