@@ -14,9 +14,6 @@ function Puzzle() {
     const EnglishContent = (
         <div className="content">
             <h1>Welcome To Puzzle</h1>
-            <p>The free trial is over. Many people take our services for granted. Thus, charge come to
-                play.
-            </p>
             <p style={{fontWeight: "bold"}}>
                 Please prepare following information.
                 <br/>
@@ -102,8 +99,6 @@ function Puzzle() {
     const ChineseContent = (
         <div className="content">
             <h1>欢迎来到Q&A！</h1>
-            <p>免费试用已经结束。许多人认为我们的服务是理所当然的，所以开始收费。
-            </p>
             <p style={{fontWeight: "bold"}}>
                 请准备以下信息
                 <br/>
