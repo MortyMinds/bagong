@@ -10,10 +10,6 @@ import SearchJobs from "./pages/Search/Search";
 import Home from "./pages/Home/Home";
 import ApplyJobs from "./pages/Apply/Apply";
 
-
-
-
-
 function App() {
     return (
         <Router basename="/bagong">

@@ -7,7 +7,7 @@ function Home() {
         <div>
             <Header/>
             <div style={{textAlign: "center"}}>
-                <img style={{maxWidth: "100%", height: "auto"}}
+                <img style={{maxWidth: "100%", height: "auto", marginTop: "6%"}}
                      src="https://cdn.dribbble.com/users/1107367/screenshots/5521980/pickle.gif" alt="iAmIn"/>
             </div>
             <Footer/>

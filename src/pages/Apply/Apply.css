@@ -11,6 +11,8 @@
     text-decoration: none;
     font-size: 16px;
     transition: background-color 0.3s ease;
+    margin-top: 1%;
+    margin-bottom: 2%;
 }
 
 .link-container a:hover {
@@ -18,9 +20,19 @@
 }
 
 .about-content {
-    font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: large;
     padding-top: 2%;
     padding-left: 3%;
     padding-right: 3%;
+}
+
+.apply-p {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333333;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
 }

@@ -6,7 +6,7 @@ import '../Background.css';
 import './Search.css';
 
 function SearchJobs() {
-  const dataUpdateDate = "2023-06-21";
+const dataUpdateDate = "2023-06-22";
   const [searchTerm, setSearchTerm] = useState('');
   const [hoveredRowIndex, setHoveredRowIndex] = useState(-1);
   const filteredData = data.filter((item) =>
