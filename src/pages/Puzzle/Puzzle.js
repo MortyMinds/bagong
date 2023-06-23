@@ -17,7 +17,7 @@ function Puzzle() {
             <p style={{fontWeight: "bold"}}>
                 Please prepare following information.
                 <br/>
-                Attention: You don't have to send these info.
+                Attention: You don't have to send these information.
             </p>
             <p style={{
                 paddingLeft: "10%",
@@ -102,7 +102,7 @@ function Puzzle() {
             <p style={{fontWeight: "bold"}}>
                 请准备以下信息
                 <br/>
-                注意：您不必发送这些信息
+                注意：您不必发送这些信息如果您不愿意
             </p>
             <p style={{
                 paddingLeft: "10%",
